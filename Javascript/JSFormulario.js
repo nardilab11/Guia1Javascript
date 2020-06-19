@@ -1,7 +1,6 @@
 
 function validarDatos(){
     var correcto = true;
-    document.get
     var rut = document.getElementByName("rut");
     var digito = document.getElementById("dig");
     var nombre = document.getElementById("nombre");
