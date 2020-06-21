@@ -2,3 +2,29 @@
     padding: 0px;
     margin: 0px;
 }
+body{
+    background-color: gray;
+}
+#formulario{
+    max-width: 400px;
+    margin-left: 450px;
+    text-align: center;
+    margin-top: 50px;
+    background-color: wheat;
+}
+#dig{
+    max-width: 20px;
+}
+#rut,#nombre,#edad{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 20px; 
+}
+#genero{
+    margin: 20px;
+}
+#boton{
+    margin: 20px;
+    min-width: 200px;
+    min-height: 50px;
+}

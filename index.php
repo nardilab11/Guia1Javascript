@@ -12,22 +12,26 @@ and open the template in the editor.
         <script src="Javascript/JSFormulario.js" type="text/javascript"></script>
     </head>
     <body>
-        <form>
-            <label>Ingrese su RUT:</label>
-            <input id="rut" type="number" required>
-            <label>-</label>
-            <input name="dig" required> <br>
-            <label>Ingrese su nombre:</label>
-            <input name="nombre" required> <br>
-            <label>Ingrese su edad:</label>
-            <input name="edad" required> <br>
-            <label>Elija su género:</label>
-            <select name="genero">
+        <form id="formulario">
+            <label id="labelRut">Ingrese su RUT:</label>
+            <input id="rut" type="number">
+            
+            <label id="labelDig">-</label>
+            <input id="dig" type="text"> <br>
+            
+            <label id="labelNombre">Ingrese su nombre:</label>
+            <input id="nombre" type="text"> <br>
+            
+            <label id="labelEdad">Ingrese su edad:</label>
+            <input id="edad" type="number"> <br>
+            
+            <label id="labelGenero">Elija su género:</label>
+            <select id="genero">
                 <option>Hombre</option>
                 <option>Mujer</option>
                 <option>Prefiero no decirlo</option>
             </select> <br>
-            <button onclick="validarDatos();">Ingresar</button>
+            <button id="boton" onclick="validarDatos();">Ingresar</button>
         </form>
     </body>
 </html>
